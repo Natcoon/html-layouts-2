@@ -1,0 +1,64 @@
+body{
+  background-color: gray;
+  margin:20px;
+}
+
+.top-box {
+ background-color: white;
+ /*display: flex;*/
+ /*height: 100px;*/
+ padding: 20px;
+ margin-bottom: 30px;
+}
+
+.button-container {
+  display:flex;
+}
+
+.button{
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  color: white;
+}
+
+.blue{
+  background-color: blue;
+  /*width: 20px;*/
+  /*line-height: 20px;*/
+  margin-left: 20px;
+}
+
+.red{
+  background-color: red;
+}
+
+.click {
+  color: white;
+  text-align: center;
+  line-height: 5px;
+  font-size: 15px;
+}
+
+.bottom-box {
+  background-color: white;
+  /*display: flex;*/
+  /*height:100px;*/
+  padding: 20px
+}
+
+.smaller-box {
+  background-color: darkgray;
+  display:flex;
+  flex-direction: column;
+  height: 70%;
+  width: 70%;
+  margin-bottom: 60px;
+}
+
+footer {
+  display:flex;
+  justify-content: flex-end;
+  background-color: darkgray;
+
+}
