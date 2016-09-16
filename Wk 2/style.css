@@ -1,0 +1,32 @@
+
+.menu-bar{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+  color: White;
+}
+
+.menu-bar p {
+  margin-left: 20px;
+}
+
+.container{
+background: url('http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg') bottom no-repeat;
+background-size: cover;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-logo {
+  width: 200px;
+}
+
+.solutionsString{
+  color:#855B3B
+}

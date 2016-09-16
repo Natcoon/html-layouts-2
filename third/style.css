@@ -1,17 +1,34 @@
-.top-box{
-  background-color: gray;
-  font-size:20px;
+.container {
   display: flex;
-  height: 100px;
+  flex-direction: column;
+  width: 100%;
 }
 
-.left-box{
+header {
+  font-size: 14px;
+  color: white;
+  background: black;
 
+  display: flex;
+  flex-direction: row;
 }
-.right-box{
-
+header > p {
+  margin: 25px;
 }
 
-.smaller-box{
+.content {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 5px;
+}
 
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: : center;
+}
+.smaller-box {
+  width: 400px;
+  height: 400px;
+  background: #f3f3f3;
 }
